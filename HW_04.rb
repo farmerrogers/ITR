@@ -36,18 +36,12 @@
 ###############################################################################
 
 current_guess_count = 0
-
 def inc_guess_count(a)
 	return a += 1
 end
-
 def guesses_left(current_guess_count)
 	return 3 - current_guess_count
-	puts "Current guess count = #{current_guess_count}"
 end
-
-
-
 #1   Hi, I'm Ben Rogers. This is a number guessing game.
 puts "The Number Guessing Game of Furious Guess-Slinging"
 first_name = "Ben"
@@ -60,15 +54,12 @@ set_of_numbers = (1..10).to_a
 secret_number = set_of_numbers.sample
 messages = {:win => "What luck, you win! Congratulations, winner.", :lose => "Game over. #{secret_number} was the winning number.", :too_low => "That guess is too low.", :too_high => "That guess is too high."}
 ask = "What do you think the number is?"
-
-
-
 3.times do |count|
-	guesses_left(1)
+	puts "You have #{guesses_left (current_guess_count)} guesses left."
 	puts ask										
   	player_guess = gets
-	current_guess_count = inc_guess_count(current_guess_count)								
-	if player_guess.to_i == secret_number 		 
+	current_guess_count = inc_guess_count(current_guess_count)					
+	if player_guess.to_i == secret_number
 		puts messages[:win]                    
 		if count == 0
 			puts "Oh jeeze, first guess. Does #{first_name} owe you a round?"
@@ -84,9 +75,6 @@ ask = "What do you think the number is?"
 		break
 	end
 end														
-
-
-
 
 ##1   Hi, I'm Ben Rogers. This is a number guessing game.
 #puts "The Number Guessing Game of Furious Guess-Slinging"
