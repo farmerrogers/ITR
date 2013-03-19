@@ -1,0 +1,9 @@
+2013-03-12 18:43:38 -0700
+This is the very first sentence I write, how cool is that?
+2013-03-12 18:55:46 -0700
+This is the very second sentence I wrote, is it less cool yet?
+2013-03-12 18:58:57 -0700 Ben RogersThis is to test out the Author input
+2013-03-12 18:59:59 -0700 Bobby Anonymous
+How about now, formatted better?
+2013-03-12 19:05:55 -0700 Ben Rogers
+Now I'm testing out the second step, let's see how this works...
