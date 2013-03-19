@@ -1,3 +1,6 @@
+
+Does this auto update on git?
+
 ###############################################################################
 #
 # Introduction to Ruby on Rails
