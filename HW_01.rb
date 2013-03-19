@@ -1,6 +1,6 @@
 
-Does this auto update on git?
-
+#Does this auto update on git?#
+#No it does not, you have to add, commit, then push.
 ###############################################################################
 #
 # Introduction to Ruby on Rails
